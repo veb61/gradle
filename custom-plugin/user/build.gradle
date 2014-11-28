@@ -15,5 +15,11 @@ apply plugin: 'code4reference'
 
 c4Args{
 	sender = "VEHBI"
-	message = "IT SHOULD WORK"
+	message = "IT SHOULD WORK" 
+
+	nestedArgs
+	{
+		receiver = "gradleAdmin"
+		email = "gradleAdmin@code4reference.com"
+	}
 }
